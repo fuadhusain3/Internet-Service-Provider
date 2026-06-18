@@ -1,79 +1,82 @@
-# Internet Service Provider Management System
+# Internet Service Provider (ISP) Management System
 
-A database management project designed to streamline and manage the operations of an Internet Service Provider (ISP). The system maintains customer records, service plans, subscriptions, and billing information through a structured relational database, ensuring efficient data management and operational accuracy.
+A database-driven Internet Service Provider (ISP) Management System developed to manage customers, internet services, subscriptions, billing, and operational records efficiently. The project combines Database Management System concepts with a web-based interface, providing a centralized platform for managing ISP operations through a relational database.
 
 ## Overview
 
-The Internet Service Provider Management System was developed to model and manage the core activities of an ISP organization. The project focuses on designing a well-structured relational database that supports customer management, service subscriptions, billing processes, and service plan administration.
+This project was designed to simulate the operations of an Internet Service Provider by maintaining customer information, service plans, subscription records, billing details, and payment management within a structured database environment.
 
-The database was designed using Entity-Relationship modeling techniques and normalized up to Third Normal Form (3NF) to eliminate redundancy, improve data integrity, and ensure efficient storage and retrieval of information.
-
-## Objectives
-
-- Design a relational database for ISP operations
-- Manage customer and subscription information
-- Track billing and payment records
-- Maintain service plans and packages
-- Ensure data integrity through normalization
-- Develop an efficient and scalable database schema
+A comprehensive Entity Relationship Diagram (ERD) was designed to model system requirements, and database normalization up to Third Normal Form (3NF) was applied to ensure data integrity, eliminate redundancy, and improve database efficiency. The database was integrated with a website to provide an interactive interface for managing and accessing information.
 
 ## Features
 
 ### Customer Management
-- Store and manage customer information
-- Maintain customer account records
-- Track active and inactive customers
+- Register and manage customer accounts
+- Store customer contact and subscription information
+- Update customer records
+- Maintain service history
 
-### Service Management
-- Manage internet service plans
-- Store package details and pricing
-- Monitor customer subscriptions
+### Service & Subscription Management
+- Manage internet service packages
+- Track customer subscriptions
+- Assign and modify service plans
+- Monitor active and inactive subscriptions
 
 ### Billing System
-- Generate and maintain billing records
+- Generate customer billing records
 - Track payments and outstanding balances
 - Manage billing history
+- Maintain payment transactions
 
-### Database Design
-- Entity-Relationship Diagram (ERD) design
-- Relational schema development
-- Normalization up to 3NF
-- Data integrity and consistency enforcement
+### Database Operations
+- Efficient data storage and retrieval
+- Relational database design
+- Data integrity enforcement
+- Structured query processing using SQL
 
-## Database Components
+### Web Integration
+- Database-connected website
+- User-friendly interface for data management
+- Real-time database interaction
+- Centralized access to customer and service information
 
-- Customers
-- Services
-- Subscriptions
-- Billing
-- Payments
-- Service Plans
+## Database Design
 
-## Tools & Technologies
+The database was designed using:
 
-- Database Management Systems (DBMS)
-- SQL
-- ER Modeling
-- Relational Database Design
-- Database Normalization (1NF, 2NF, 3NF)
+- Entity Relationship Diagram (ERD)
+- Relational Schema Design
+- Primary and Foreign Key Constraints
+- Database Normalization (up to 3NF)
+- SQL Queries and Data Manipulation Operations
+
+## System Components
+
+- Customer Management Module
+- Service Management Module
+- Subscription Management Module
+- Billing and Payment Module
+- Database Backend
+- Web-Based Frontend Interface
 
 ## Learning Outcomes
 
-- Database Design Principles
+- Relational Database Design
 - SQL Query Development
-- Entity-Relationship Modeling
-- Relational Schema Design
-- Database Normalization
-- Data Integrity Management
-- Business Process Modeling
-- Structured Data Management
+- Entity Relationship Modeling
+- Database Normalization (1NF, 2NF, 3NF)
+- Database Connectivity
+- Web and Database Integration
+- Data Integrity and Constraint Management
+- Full-Stack Database Application Development
 
 ## Future Enhancements
 
-- Online customer portal
-- Automated bill generation
+- Online payment gateway integration
+- Customer self-service portal
+- Automated invoice generation
 - Service usage analytics
-- Payment gateway integration
-- Customer support ticket management
-- Web-based administration dashboard
-- Advanced reporting and visualization
+- Role-based access control
+- Reporting and dashboard system
+- Email and SMS notifications
+- Cloud database deployment
